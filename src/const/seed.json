@@ -1,0 +1,2522 @@
+[
+  {
+    "dashboard": [
+      {
+        "id": "1b0efd9a-a3fa-4de5-b983-a643789972a8",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-27T07:48:35.612Z",
+        "updated_at": "2023-09-27T06:03:39.204Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "71e903e4-24e2-42f6-a4b9-8c10f4b39982",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-26T13:51:58.378Z",
+        "updated_at": "2023-09-26T18:40:57.988Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23487e9d-9f51-46b9-b08f-ab27574e85f4",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-27T07:19:07.422Z",
+        "updated_at": "2023-09-26T14:20:25.384Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9c96af49-1b41-466f-919c-00e5a145033f",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-27T01:58:51.041Z",
+        "updated_at": "2023-09-27T09:57:34.526Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8925109c-d043-4253-ad66-db49cf527b7b",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-27T01:51:50.740Z",
+        "updated_at": "2023-09-26T18:38:31.284Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "95ba0ad7-1183-4ae3-b1ac-2f6b7d0876ba",
+        "name": "Order Processing",
+        "status": "Pending",
+        "start_time": "2023-09-27T12:41:01.822Z",
+        "end_time": "2023-09-27T00:24:11.271Z",
+        "created_at": "2023-09-27T05:18:20.566Z",
+        "updated_at": "2023-09-27T07:06:04.536Z",
+        "dashboard_id": "23487e9d-9f51-46b9-b08f-ab27574e85f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca15bd7d-61e2-4295-ad29-1a110daf438e",
+        "name": "Inventory Management",
+        "status": "In Progress",
+        "start_time": "2023-09-26T16:43:09.257Z",
+        "end_time": "2023-09-27T03:58:04.963Z",
+        "created_at": "2023-09-26T18:18:49.517Z",
+        "updated_at": "2023-09-27T08:56:52.085Z",
+        "dashboard_id": "23487e9d-9f51-46b9-b08f-ab27574e85f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a605cd6-d5a6-4812-b4f3-d56d9b651259",
+        "name": "Customer Support",
+        "status": "Completed",
+        "start_time": "2023-09-26T20:05:46.112Z",
+        "end_time": "2023-09-27T07:39:49.192Z",
+        "created_at": "2023-09-27T10:11:43.831Z",
+        "updated_at": "2023-09-27T08:36:05.535Z",
+        "dashboard_id": "8925109c-d043-4253-ad66-db49cf527b7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7c1f71f-e66b-456a-91f9-808a7df9a14d",
+        "name": "Quality Control",
+        "status": "On Hold",
+        "start_time": "2023-09-27T00:00:58.241Z",
+        "end_time": "2023-09-26T21:41:08.782Z",
+        "created_at": "2023-09-26T20:25:11.805Z",
+        "updated_at": "2023-09-27T07:19:24.937Z",
+        "dashboard_id": "9c96af49-1b41-466f-919c-00e5a145033f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed5738a9-846a-44f7-b810-72053f81844c",
+        "name": "Logistics",
+        "status": "Cancelled",
+        "start_time": "2023-09-26T17:59:07.671Z",
+        "end_time": "2023-09-26T16:23:38.351Z",
+        "created_at": "2023-09-27T05:39:46.836Z",
+        "updated_at": "2023-09-26T15:27:22.070Z",
+        "dashboard_id": "1b0efd9a-a3fa-4de5-b983-a643789972a8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "ff943801-ee07-442f-a94d-f61259667f8e",
+        "model": "Sedan",
+        "year": 35345,
+        "color": "Red",
+        "mileage": 34675,
+        "location": "New York",
+        "created_at": "2023-09-27T10:17:45.278Z",
+        "updated_at": "2023-09-26T23:20:46.219Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2cd0306d-4716-4c90-9b96-8cf715a680a0",
+        "model": "SUV",
+        "year": 61461,
+        "color": "Blue",
+        "mileage": 92071,
+        "location": "Los Angeles",
+        "created_at": "2023-09-26T16:23:11.667Z",
+        "updated_at": "2023-09-26T21:10:05.533Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d408f851-a649-41e1-baf0-83ba4b830f7e",
+        "model": "Hatchback",
+        "year": 43151,
+        "color": "Black",
+        "mileage": 51098,
+        "location": "Chicago",
+        "created_at": "2023-09-26T19:44:06.579Z",
+        "updated_at": "2023-09-27T08:19:09.626Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "74a49727-bdfa-4cd6-8b4d-32560e5a9017",
+        "model": "Sports Car",
+        "year": 76559,
+        "color": "White",
+        "mileage": 97066,
+        "location": "Houston",
+        "created_at": "2023-09-26T22:12:41.150Z",
+        "updated_at": "2023-09-26T23:07:31.800Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "805fc568-5c34-442c-8338-83572d8179ca",
+        "model": "Electric Vehicle",
+        "year": 61670,
+        "color": "Silver",
+        "mileage": 46436,
+        "location": "Miami",
+        "created_at": "2023-09-27T04:08:37.175Z",
+        "updated_at": "2023-09-26T14:10:07.149Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4d554cfb-e749-42e6-9cf7-61556ea01967",
+        "start_time": "2023-09-26T21:51:43.242Z",
+        "end_time": "2023-09-26T13:38:39.505Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T18:26:07.249Z",
+        "updated_at": "2023-09-27T10:28:07.825Z",
+        "car_id": "2cd0306d-4716-4c90-9b96-8cf715a680a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24122aa5-a3c2-4450-9ab5-1ac1d6cdb8b7",
+        "start_time": "2023-09-27T10:24:39.778Z",
+        "end_time": "2023-09-27T01:42:46.866Z",
+        "status": "Pending",
+        "created_at": "2023-09-27T01:41:08.615Z",
+        "updated_at": "2023-09-26T20:20:53.140Z",
+        "car_id": "2cd0306d-4716-4c90-9b96-8cf715a680a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "748f5863-a6b9-4b29-af9a-e9863ecdfdd2",
+        "start_time": "2023-09-27T01:26:12.530Z",
+        "end_time": "2023-09-27T09:32:15.906Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T14:39:33.223Z",
+        "updated_at": "2023-09-26T15:18:03.574Z",
+        "car_id": "805fc568-5c34-442c-8338-83572d8179ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beab4834-5a3a-4328-ade2-f97341db1392",
+        "start_time": "2023-09-26T23:19:26.139Z",
+        "end_time": "2023-09-26T15:09:50.600Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T16:25:13.416Z",
+        "updated_at": "2023-09-27T05:15:48.903Z",
+        "car_id": "805fc568-5c34-442c-8338-83572d8179ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97316e49-1de9-4929-b3f9-48a97a1886f8",
+        "start_time": "2023-09-26T15:28:00.539Z",
+        "end_time": "2023-09-27T08:56:14.975Z",
+        "status": "On Hold",
+        "created_at": "2023-09-26T14:05:03.586Z",
+        "updated_at": "2023-09-26T15:28:37.009Z",
+        "car_id": "d408f851-a649-41e1-baf0-83ba4b830f7e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7a37bdd9-4ad5-4f45-839d-e57092ac03c8",
+        "email": "Madilyn96@roq.tech",
+        "firstName": "Della",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2618f98-0b91-406a-9b15-bb618a4ba9d5",
+        "email": "Carroll_Prosacco@roq.tech",
+        "firstName": "Craig",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28035094",
+        "tenantId": null
+      },
+      {
+        "reference": "7ec7007b-ee1d-4147-98fa-a9c706f4d70c",
+        "email": "Jarod_Harvey@roq.tech",
+        "firstName": "Zetta",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68543337",
+        "tenantId": null
+      },
+      {
+        "reference": "45654b8b-ef84-41ca-bf6a-4438c45594b7",
+        "email": "Antonio_Lang@roq.tech",
+        "firstName": "Jaime",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/785.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25dfbad5-8837-4e19-9ad4-67828e837844",
+        "email": "Alphonso.Tremblay50@roq.tech",
+        "firstName": "Brionna",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/773.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "790a4d6f-f469-4690-a004-9f04dc072d50",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-26T13:31:54.344Z",
+        "updated_at": "2023-09-27T12:31:21.968Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9822c671-adda-4ad4-9c12-6eb57677f787",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-27T11:32:19.058Z",
+        "updated_at": "2023-09-26T20:34:33.213Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "946e2010-0d2e-4fce-9d8f-e5f998bb3b90",
+        "name": "Financial Dashboard",
+        "created_at": "2023-09-27T01:51:06.138Z",
+        "updated_at": "2023-09-27T03:33:20.035Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d1d095d9-e173-40e9-b9d7-c694e1ec4e87",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-27T07:42:30.053Z",
+        "updated_at": "2023-09-26T15:14:39.702Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "85937868-93dc-4c44-8593-87e130b71a93",
+        "name": "Customer Support Dashboard",
+        "created_at": "2023-09-27T03:05:29.529Z",
+        "updated_at": "2023-09-26T13:16:33.382Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "5ea7ade1-436a-4be3-bae3-245b2f8c6158",
+        "name": "Order Processing",
+        "status": "Active",
+        "start_time": "2023-09-26T22:43:16.640Z",
+        "end_time": "2023-09-27T09:06:03.839Z",
+        "created_at": "2023-09-27T04:04:46.508Z",
+        "updated_at": "2023-09-27T11:18:22.132Z",
+        "dashboard_id": "d1d095d9-e173-40e9-b9d7-c694e1ec4e87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb670123-6e15-4635-917a-eb6fafeb43fc",
+        "name": "Inventory Management",
+        "status": "Pending",
+        "start_time": "2023-09-27T08:42:42.229Z",
+        "end_time": "2023-09-26T19:41:43.159Z",
+        "created_at": "2023-09-27T12:11:31.428Z",
+        "updated_at": "2023-09-27T07:17:12.694Z",
+        "dashboard_id": "d1d095d9-e173-40e9-b9d7-c694e1ec4e87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4dc1aa2-4695-4874-b621-22bba681bba2",
+        "name": "Quality Control",
+        "status": "Completed",
+        "start_time": "2023-09-27T06:46:03.557Z",
+        "end_time": "2023-09-27T07:33:21.157Z",
+        "created_at": "2023-09-27T03:08:59.368Z",
+        "updated_at": "2023-09-26T15:03:36.108Z",
+        "dashboard_id": "946e2010-0d2e-4fce-9d8f-e5f998bb3b90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93be1453-6f7a-4740-8e55-e25fc59887ca",
+        "name": "Supply Chain",
+        "status": "Cancelled",
+        "start_time": "2023-09-27T00:27:58.996Z",
+        "end_time": "2023-09-26T14:22:50.474Z",
+        "created_at": "2023-09-26T21:07:19.561Z",
+        "updated_at": "2023-09-27T04:02:00.024Z",
+        "dashboard_id": "85937868-93dc-4c44-8593-87e130b71a93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ad76ec5-43ee-4d59-88a8-32888968a414",
+        "name": "Logistics",
+        "status": "In Progress",
+        "start_time": "2023-09-26T17:52:26.562Z",
+        "end_time": "2023-09-26T18:36:52.978Z",
+        "created_at": "2023-09-27T10:22:25.566Z",
+        "updated_at": "2023-09-26T19:00:51.598Z",
+        "dashboard_id": "9822c671-adda-4ad4-9c12-6eb57677f787",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "809e4aca-01aa-4c13-85f2-a422b69df633",
+        "model": "Sedan",
+        "year": 40529,
+        "color": "Red",
+        "mileage": 54166,
+        "location": "New York",
+        "created_at": "2023-09-27T10:21:44.766Z",
+        "updated_at": "2023-09-26T14:36:20.104Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "29937324-6e6b-4626-be98-9dada535e710",
+        "model": "SUV",
+        "year": 58614,
+        "color": "Blue",
+        "mileage": 40313,
+        "location": "Los Angeles",
+        "created_at": "2023-09-26T18:36:45.750Z",
+        "updated_at": "2023-09-26T18:56:18.540Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f3a79c9b-79bd-403f-bb1e-0fa5df401efd",
+        "model": "Hatchback",
+        "year": 57145,
+        "color": "Black",
+        "mileage": 43643,
+        "location": "Chicago",
+        "created_at": "2023-09-27T06:17:13.914Z",
+        "updated_at": "2023-09-27T06:21:34.559Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "78f798cf-409e-4ac1-a07e-ce69a7756b81",
+        "model": "Sports Car",
+        "year": 97670,
+        "color": "White",
+        "mileage": 85300,
+        "location": "Houston",
+        "created_at": "2023-09-26T17:58:34.367Z",
+        "updated_at": "2023-09-27T05:39:29.676Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12399d8f-4af7-4bda-ba01-f1f383ee8d6d",
+        "model": "Electric Vehicle",
+        "year": 18915,
+        "color": "Silver",
+        "mileage": 49561,
+        "location": "Miami",
+        "created_at": "2023-09-27T10:56:37.499Z",
+        "updated_at": "2023-09-26T19:13:29.225Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3c3fdc16-3ecc-4279-aa9d-c2d295a9f28a",
+        "start_time": "2023-09-27T00:01:34.016Z",
+        "end_time": "2023-09-26T20:26:26.283Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T16:58:57.403Z",
+        "updated_at": "2023-09-26T14:40:35.626Z",
+        "car_id": "12399d8f-4af7-4bda-ba01-f1f383ee8d6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c72f91be-9d13-4eba-ba10-ef7614e29ffb",
+        "start_time": "2023-09-26T18:05:51.523Z",
+        "end_time": "2023-09-26T15:23:26.294Z",
+        "status": "Pending",
+        "created_at": "2023-09-27T05:28:35.358Z",
+        "updated_at": "2023-09-26T18:27:19.899Z",
+        "car_id": "78f798cf-409e-4ac1-a07e-ce69a7756b81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e83ed703-1fdf-41dd-bf40-15daa42e7ed6",
+        "start_time": "2023-09-27T02:27:28.425Z",
+        "end_time": "2023-09-27T00:25:57.229Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T18:57:48.491Z",
+        "updated_at": "2023-09-27T02:30:28.116Z",
+        "car_id": "29937324-6e6b-4626-be98-9dada535e710",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e0a0a81-85a7-425b-ba63-e400e709b41b",
+        "start_time": "2023-09-27T02:58:55.582Z",
+        "end_time": "2023-09-26T16:25:59.157Z",
+        "status": "Completed",
+        "created_at": "2023-09-27T07:12:18.095Z",
+        "updated_at": "2023-09-26T20:36:50.045Z",
+        "car_id": "29937324-6e6b-4626-be98-9dada535e710",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89756df7-8045-4264-a507-c4cf05ae1621",
+        "start_time": "2023-09-27T01:22:15.551Z",
+        "end_time": "2023-09-26T15:32:46.945Z",
+        "status": "On Hold",
+        "created_at": "2023-09-27T10:32:54.863Z",
+        "updated_at": "2023-09-27T01:21:00.990Z",
+        "car_id": "809e4aca-01aa-4c13-85f2-a422b69df633",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "46aa8c72-1bec-4057-9fa5-2ddc0889157c",
+        "email": "Sandra44@roq.tech",
+        "firstName": "Alexandro",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71026987",
+        "tenantId": null
+      },
+      {
+        "reference": "0c9cde28-dfdc-427e-953e-5b570e8f754f",
+        "email": "Horace52@roq.tech",
+        "firstName": "Reid",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/979.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a4fb4a84-a100-4046-a84c-d07316548544",
+        "email": "Kaylie.Simonis@roq.tech",
+        "firstName": "Cecilia",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25750447",
+        "tenantId": null
+      },
+      {
+        "reference": "703cc2c3-ea34-46b0-9191-1e3f85580429",
+        "email": "Hillard.Kirlin58@roq.tech",
+        "firstName": "Conor",
+        "lastName": "Walter-Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45884202",
+        "tenantId": null
+      },
+      {
+        "reference": "99a3db89-4f03-42bb-a5a4-bfaf39a73431",
+        "email": "Vern.McLaughlin@roq.tech",
+        "firstName": "Ada",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18977794",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "13831ed0-c75a-4d92-9024-060bcfff1ccc",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-27T06:01:51.498Z",
+        "updated_at": "2023-09-27T00:18:40.000Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4a2ce921-d8ea-49b0-8000-bc48f8f2ae2a",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-26T20:31:37.298Z",
+        "updated_at": "2023-09-26T15:02:40.583Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5d5e6518-50f9-45da-8b4b-c2672fa92210",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-26T17:30:33.222Z",
+        "updated_at": "2023-09-26T20:13:16.928Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d16d2466-2b9f-4c32-89ab-329b8349323d",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-27T04:55:11.808Z",
+        "updated_at": "2023-09-26T19:48:23.447Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cffa8402-1779-4b3c-88bc-990a9c5f7d94",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-26T20:39:56.271Z",
+        "updated_at": "2023-09-27T02:37:37.024Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "50d5daa1-6bf6-4d1b-b39a-9a36280349b2",
+        "name": "Operation 1",
+        "status": "Pending",
+        "start_time": "2023-09-26T12:54:26.198Z",
+        "end_time": "2023-09-26T18:59:52.599Z",
+        "created_at": "2023-09-26T16:11:11.035Z",
+        "updated_at": "2023-09-26T19:43:22.708Z",
+        "dashboard_id": "5d5e6518-50f9-45da-8b4b-c2672fa92210",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c67df3ce-3bfa-4ee9-9cdc-ffa9eb2834e4",
+        "name": "Operation 2",
+        "status": "In Progress",
+        "start_time": "2023-09-27T00:07:48.247Z",
+        "end_time": "2023-09-27T12:20:23.783Z",
+        "created_at": "2023-09-26T16:55:41.279Z",
+        "updated_at": "2023-09-27T02:12:28.600Z",
+        "dashboard_id": "cffa8402-1779-4b3c-88bc-990a9c5f7d94",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "754a6778-06ec-470c-b887-3e7fc5c8905f",
+        "name": "Operation 3",
+        "status": "Completed",
+        "start_time": "2023-09-26T14:20:49.651Z",
+        "end_time": "2023-09-26T15:08:39.431Z",
+        "created_at": "2023-09-27T05:02:49.348Z",
+        "updated_at": "2023-09-27T11:35:36.889Z",
+        "dashboard_id": "d16d2466-2b9f-4c32-89ab-329b8349323d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05373adf-341d-4230-8022-66926f25b918",
+        "name": "Operation 4",
+        "status": "On Hold",
+        "start_time": "2023-09-26T14:47:47.970Z",
+        "end_time": "2023-09-26T20:26:10.339Z",
+        "created_at": "2023-09-26T21:53:45.378Z",
+        "updated_at": "2023-09-26T18:45:41.716Z",
+        "dashboard_id": "4a2ce921-d8ea-49b0-8000-bc48f8f2ae2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a365d059-faca-4138-930c-b6e934329e0d",
+        "name": "Operation 5",
+        "status": "Cancelled",
+        "start_time": "2023-09-27T12:28:01.699Z",
+        "end_time": "2023-09-27T03:07:27.409Z",
+        "created_at": "2023-09-26T21:22:42.459Z",
+        "updated_at": "2023-09-27T11:11:24.727Z",
+        "dashboard_id": "13831ed0-c75a-4d92-9024-060bcfff1ccc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "1f025885-70bd-4585-a0f0-ba70e7c4f6a6",
+        "model": "Sedan",
+        "year": 60600,
+        "color": "Red",
+        "mileage": 50109,
+        "location": "New York",
+        "created_at": "2023-09-27T05:44:01.073Z",
+        "updated_at": "2023-09-26T16:46:03.144Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b6090a94-f19b-48aa-bd96-004deaabcadf",
+        "model": "SUV",
+        "year": 21997,
+        "color": "Blue",
+        "mileage": 82819,
+        "location": "Los Angeles",
+        "created_at": "2023-09-27T04:42:25.848Z",
+        "updated_at": "2023-09-26T22:24:07.405Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f5bd8c0e-12b7-48b3-ae3a-0b84c2ecaeca",
+        "model": "Hatchback",
+        "year": 69895,
+        "color": "Green",
+        "mileage": 108,
+        "location": "Chicago",
+        "created_at": "2023-09-27T04:22:48.100Z",
+        "updated_at": "2023-09-26T17:48:32.902Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90a876e0-0b32-4642-ae09-4574a15191f8",
+        "model": "Convertible",
+        "year": 24257,
+        "color": "Black",
+        "mileage": 65157,
+        "location": "Houston",
+        "created_at": "2023-09-27T01:40:07.146Z",
+        "updated_at": "2023-09-27T07:14:19.640Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e7aa805-51d1-4285-a661-323d3c12a4ca",
+        "model": "Electric",
+        "year": 82338,
+        "color": "White",
+        "mileage": 9437,
+        "location": "Miami",
+        "created_at": "2023-09-27T10:12:44.809Z",
+        "updated_at": "2023-09-27T06:55:23.630Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "bc414bd0-7fc0-4952-8aca-83b6268f1526",
+        "start_time": "2023-09-27T04:19:09.546Z",
+        "end_time": "2023-09-26T21:59:00.271Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T04:22:58.985Z",
+        "updated_at": "2023-09-27T12:03:08.047Z",
+        "car_id": "1f025885-70bd-4585-a0f0-ba70e7c4f6a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e612dc28-4fe0-45da-8f77-924d5dfa1b0b",
+        "start_time": "2023-09-27T02:14:54.083Z",
+        "end_time": "2023-09-26T19:09:50.690Z",
+        "status": "Pending",
+        "created_at": "2023-09-26T13:27:06.694Z",
+        "updated_at": "2023-09-26T21:46:07.893Z",
+        "car_id": "4e7aa805-51d1-4285-a661-323d3c12a4ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "469023fc-8887-413e-b745-b6255d114af9",
+        "start_time": "2023-09-26T18:11:28.797Z",
+        "end_time": "2023-09-27T05:38:15.458Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T05:06:28.023Z",
+        "updated_at": "2023-09-27T10:03:26.884Z",
+        "car_id": "90a876e0-0b32-4642-ae09-4574a15191f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c1368bd-bb0b-4bbd-8e5f-e2e0eb8b018e",
+        "start_time": "2023-09-27T08:09:57.280Z",
+        "end_time": "2023-09-27T00:22:35.189Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T23:46:32.084Z",
+        "updated_at": "2023-09-26T18:22:42.585Z",
+        "car_id": "f5bd8c0e-12b7-48b3-ae3a-0b84c2ecaeca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adb753cd-53c0-4383-a680-d2f6014ff7a2",
+        "start_time": "2023-09-27T07:14:41.451Z",
+        "end_time": "2023-09-27T09:04:59.555Z",
+        "status": "On Hold",
+        "created_at": "2023-09-27T01:04:58.571Z",
+        "updated_at": "2023-09-27T06:19:21.519Z",
+        "car_id": "4e7aa805-51d1-4285-a661-323d3c12a4ca",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "63928ec4-affc-4681-869c-53b5655b7d5c",
+        "email": "Josh92@roq.tech",
+        "firstName": "Elza",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/88.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e907019-2d19-45d3-975f-4b5ea872edfb",
+        "email": "Modesta88@roq.tech",
+        "firstName": "Jayson",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13884672",
+        "tenantId": null
+      },
+      {
+        "reference": "f4b086fc-819d-4efb-bb08-cc4e01ac0cbd",
+        "email": "Shanon21@roq.tech",
+        "firstName": "Roberto",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53121328",
+        "tenantId": null
+      },
+      {
+        "reference": "5f7166d7-c298-4bab-9874-65ffba4e952e",
+        "email": "Herminio_Gleason16@roq.tech",
+        "firstName": "Kyler",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53644a84-62c3-44c9-81e5-d0f5dfc8fa74",
+        "email": "Delpha.Gerlach@roq.tech",
+        "firstName": "Kallie",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "a041331d-425a-4b5a-ba20-ec1adb78ebd2",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-27T00:32:27.329Z",
+        "updated_at": "2023-09-27T07:50:27.602Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e659ecdb-6e50-444d-aba7-38397695cf86",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-26T20:56:47.636Z",
+        "updated_at": "2023-09-27T05:57:52.394Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e1fea1f-b8c8-4ea0-a7b6-7017c56fe38f",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-26T18:31:26.129Z",
+        "updated_at": "2023-09-26T19:27:35.415Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61853717-134c-42ed-98b9-704b9eb0b4a3",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-27T00:59:42.443Z",
+        "updated_at": "2023-09-26T20:13:01.700Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0cbe8788-caba-4262-8075-f2b4f0da08b5",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-27T09:57:43.454Z",
+        "updated_at": "2023-09-26T21:17:08.203Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "b35ea6cc-e00d-4b90-9e07-df5d0e6d71d5",
+        "name": "Order Processing",
+        "status": "Pending",
+        "start_time": "2023-09-27T01:27:56.749Z",
+        "end_time": "2023-09-27T08:32:21.298Z",
+        "created_at": "2023-09-26T20:48:23.509Z",
+        "updated_at": "2023-09-26T15:35:10.661Z",
+        "dashboard_id": "0cbe8788-caba-4262-8075-f2b4f0da08b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dc32978-ac3c-413a-9def-bd9d786d0cff",
+        "name": "Inventory Management",
+        "status": "In Progress",
+        "start_time": "2023-09-26T22:43:36.438Z",
+        "end_time": "2023-09-27T06:42:43.448Z",
+        "created_at": "2023-09-26T23:18:23.724Z",
+        "updated_at": "2023-09-26T21:38:38.838Z",
+        "dashboard_id": "a041331d-425a-4b5a-ba20-ec1adb78ebd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3997055c-0903-424b-887c-39eb69cb934e",
+        "name": "Customer Support",
+        "status": "Completed",
+        "start_time": "2023-09-26T21:47:57.343Z",
+        "end_time": "2023-09-26T14:03:38.759Z",
+        "created_at": "2023-09-26T16:59:42.553Z",
+        "updated_at": "2023-09-26T20:02:17.738Z",
+        "dashboard_id": "0cbe8788-caba-4262-8075-f2b4f0da08b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2e91248-9db5-4f79-b0c8-e66d32fc0d93",
+        "name": "Quality Assurance",
+        "status": "On Hold",
+        "start_time": "2023-09-27T00:08:25.947Z",
+        "end_time": "2023-09-27T06:27:22.175Z",
+        "created_at": "2023-09-27T07:32:12.218Z",
+        "updated_at": "2023-09-26T20:12:39.446Z",
+        "dashboard_id": "61853717-134c-42ed-98b9-704b9eb0b4a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53cd4763-f1b6-4c8f-810e-cfb5ca8e7c3d",
+        "name": "Supply Chain",
+        "status": "Cancelled",
+        "start_time": "2023-09-27T05:23:07.077Z",
+        "end_time": "2023-09-26T22:59:15.123Z",
+        "created_at": "2023-09-27T07:04:23.468Z",
+        "updated_at": "2023-09-26T21:36:36.833Z",
+        "dashboard_id": "0cbe8788-caba-4262-8075-f2b4f0da08b5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "c899e130-0f21-4285-ac52-a66810293acd",
+        "model": "Sedan",
+        "year": 43102,
+        "color": "Red",
+        "mileage": 63946,
+        "location": "New York",
+        "created_at": "2023-09-27T11:04:14.509Z",
+        "updated_at": "2023-09-27T08:56:40.983Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc657ee0-5b3d-4fb3-b320-a3976470f6e0",
+        "model": "SUV",
+        "year": 34868,
+        "color": "Blue",
+        "mileage": 94244,
+        "location": "Los Angeles",
+        "created_at": "2023-09-27T08:40:32.604Z",
+        "updated_at": "2023-09-26T23:24:14.430Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "afebc076-6aa2-4241-9f2b-80835848fce0",
+        "model": "Hatchback",
+        "year": 63466,
+        "color": "Black",
+        "mileage": 60939,
+        "location": "Chicago",
+        "created_at": "2023-09-26T16:07:12.537Z",
+        "updated_at": "2023-09-26T13:58:33.861Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e48e9def-dde8-45d9-9b79-a05f8132b46d",
+        "model": "Sports Car",
+        "year": 48623,
+        "color": "White",
+        "mileage": 5714,
+        "location": "Houston",
+        "created_at": "2023-09-26T17:48:25.933Z",
+        "updated_at": "2023-09-26T17:45:00.713Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0b24c95b-9366-4e5d-9a82-b2ad66c1cc2e",
+        "model": "Electric Vehicle",
+        "year": 28925,
+        "color": "Silver",
+        "mileage": 14728,
+        "location": "Miami",
+        "created_at": "2023-09-27T06:36:27.907Z",
+        "updated_at": "2023-09-26T18:32:15.334Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "36debd6f-5fba-496c-b4d5-797ce7b0e765",
+        "start_time": "2023-09-27T02:11:19.397Z",
+        "end_time": "2023-09-27T02:08:49.982Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T06:05:50.622Z",
+        "updated_at": "2023-09-26T14:22:06.652Z",
+        "car_id": "afebc076-6aa2-4241-9f2b-80835848fce0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aeb55b5-22f6-47ea-8a2e-9bde7c38acce",
+        "start_time": "2023-09-27T01:13:58.370Z",
+        "end_time": "2023-09-26T16:13:07.308Z",
+        "status": "Pending",
+        "created_at": "2023-09-26T13:05:28.483Z",
+        "updated_at": "2023-09-27T06:13:10.906Z",
+        "car_id": "afebc076-6aa2-4241-9f2b-80835848fce0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b90974e-7491-4916-857b-37fade9d4aa5",
+        "start_time": "2023-09-27T02:57:44.196Z",
+        "end_time": "2023-09-26T22:59:04.041Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T14:04:48.106Z",
+        "updated_at": "2023-09-26T20:03:03.493Z",
+        "car_id": "cc657ee0-5b3d-4fb3-b320-a3976470f6e0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db2d6b69-ba9f-41ec-a73c-fd54609d523f",
+        "start_time": "2023-09-27T08:30:59.341Z",
+        "end_time": "2023-09-27T05:09:35.801Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T13:30:28.171Z",
+        "updated_at": "2023-09-26T13:33:12.391Z",
+        "car_id": "afebc076-6aa2-4241-9f2b-80835848fce0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "846d962e-1a40-47b2-8940-d58da9337589",
+        "start_time": "2023-09-26T23:19:09.119Z",
+        "end_time": "2023-09-26T15:53:00.573Z",
+        "status": "On Hold",
+        "created_at": "2023-09-26T21:42:56.283Z",
+        "updated_at": "2023-09-27T04:51:11.706Z",
+        "car_id": "cc657ee0-5b3d-4fb3-b320-a3976470f6e0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5d39d251-73db-47ce-83b1-133adbff43a2",
+        "email": "Deron77@roq.tech",
+        "firstName": "Conner",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10736971",
+        "tenantId": null
+      },
+      {
+        "reference": "03a55786-c4d0-4984-905d-bc8ebe1814a2",
+        "email": "Rickie58@roq.tech",
+        "firstName": "Mitchel",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92897372",
+        "tenantId": null
+      },
+      {
+        "reference": "91db4b3a-eb3f-4f15-92a8-7d8784d2c5b8",
+        "email": "Lolita_Harber85@roq.tech",
+        "firstName": "Demario",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "770566a8-2b21-4e56-a1ab-6177328aed74",
+        "email": "Adalberto.Parisian@roq.tech",
+        "firstName": "Mae",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70964824",
+        "tenantId": null
+      },
+      {
+        "reference": "1bff9323-cd7e-4046-a3b7-200ded401476",
+        "email": "Darren.Sipes49@roq.tech",
+        "firstName": "Anthony",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3104469",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "64dade8c-ff5a-4891-b371-d6fdc4e2e4df",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-26T21:26:45.342Z",
+        "updated_at": "2023-09-27T05:24:26.381Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c55455e6-40f1-4a5f-a084-27e27fee7bb3",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-26T14:16:24.748Z",
+        "updated_at": "2023-09-26T23:30:59.135Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06ac3015-7228-492f-b4e8-087d013f86a5",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-26T20:59:33.950Z",
+        "updated_at": "2023-09-27T03:20:43.815Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1ef7e7ab-d0b1-4801-b14d-e0bddffbe2d0",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-26T21:51:24.276Z",
+        "updated_at": "2023-09-27T04:11:04.388Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "36163b46-65b7-4fd7-a183-bfeaa996898c",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-27T08:55:52.112Z",
+        "updated_at": "2023-09-26T19:31:19.723Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "e5394c97-1a7d-40fb-9cad-6adf37760fa5",
+        "name": "Operation 1",
+        "status": "Pending",
+        "start_time": "2023-09-27T03:17:39.016Z",
+        "end_time": "2023-09-27T02:06:05.219Z",
+        "created_at": "2023-09-26T17:50:39.636Z",
+        "updated_at": "2023-09-27T07:50:41.434Z",
+        "dashboard_id": "36163b46-65b7-4fd7-a183-bfeaa996898c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29b46e3b-a661-4f27-a498-cde3187a9da3",
+        "name": "Operation 2",
+        "status": "In Progress",
+        "start_time": "2023-09-26T22:28:24.901Z",
+        "end_time": "2023-09-27T00:24:58.865Z",
+        "created_at": "2023-09-26T21:07:53.880Z",
+        "updated_at": "2023-09-27T07:47:26.513Z",
+        "dashboard_id": "36163b46-65b7-4fd7-a183-bfeaa996898c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27fd4556-f780-4476-b827-bd2d109b0edd",
+        "name": "Operation 3",
+        "status": "Completed",
+        "start_time": "2023-09-26T19:58:21.059Z",
+        "end_time": "2023-09-27T02:37:58.969Z",
+        "created_at": "2023-09-26T22:27:49.321Z",
+        "updated_at": "2023-09-27T01:54:05.154Z",
+        "dashboard_id": "06ac3015-7228-492f-b4e8-087d013f86a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87c243e2-2822-417c-8787-0e8d4bf9e12e",
+        "name": "Operation 4",
+        "status": "On Hold",
+        "start_time": "2023-09-27T11:48:47.973Z",
+        "end_time": "2023-09-26T14:42:47.471Z",
+        "created_at": "2023-09-27T07:50:02.660Z",
+        "updated_at": "2023-09-27T12:05:27.768Z",
+        "dashboard_id": "64dade8c-ff5a-4891-b371-d6fdc4e2e4df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffe23277-b14c-46a9-81ce-0f430568da94",
+        "name": "Operation 5",
+        "status": "Cancelled",
+        "start_time": "2023-09-26T22:29:14.658Z",
+        "end_time": "2023-09-27T03:48:12.619Z",
+        "created_at": "2023-09-27T02:04:42.320Z",
+        "updated_at": "2023-09-27T07:39:20.400Z",
+        "dashboard_id": "1ef7e7ab-d0b1-4801-b14d-e0bddffbe2d0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "adb21468-c8e7-478c-9552-37de805595f6",
+        "model": "Sedan",
+        "year": 13967,
+        "color": "Red",
+        "mileage": 82504,
+        "location": "New York",
+        "created_at": "2023-09-26T14:05:38.191Z",
+        "updated_at": "2023-09-26T13:56:15.914Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a0868979-5f1b-4b5c-8b88-d4725e1b2c40",
+        "model": "SUV",
+        "year": 25499,
+        "color": "Blue",
+        "mileage": 26061,
+        "location": "Los Angeles",
+        "created_at": "2023-09-27T09:45:37.545Z",
+        "updated_at": "2023-09-27T00:17:16.319Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "012cb815-3771-4778-a84a-310ea82ab1d2",
+        "model": "Hatchback",
+        "year": 6121,
+        "color": "Green",
+        "mileage": 93915,
+        "location": "Chicago",
+        "created_at": "2023-09-27T03:01:27.595Z",
+        "updated_at": "2023-09-26T17:01:59.116Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a2df3967-7d4c-4184-8386-113cc5c01c0b",
+        "model": "Sports Car",
+        "year": 24910,
+        "color": "Silver",
+        "mileage": 14647,
+        "location": "Houston",
+        "created_at": "2023-09-27T07:14:41.413Z",
+        "updated_at": "2023-09-27T05:03:50.684Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eac81969-ea9b-4181-82b8-8149e6e28e0e",
+        "model": "Electric Car",
+        "year": 9147,
+        "color": "Black",
+        "mileage": 37007,
+        "location": "Miami",
+        "created_at": "2023-09-27T04:50:12.669Z",
+        "updated_at": "2023-09-27T03:00:14.750Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "47527936-199c-47b7-ba82-fa9ea9b5acd6",
+        "start_time": "2023-09-26T23:28:28.474Z",
+        "end_time": "2023-09-27T07:22:34.576Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T01:32:58.558Z",
+        "updated_at": "2023-09-26T17:33:20.556Z",
+        "car_id": "a0868979-5f1b-4b5c-8b88-d4725e1b2c40",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b88794f-9f1e-4a7c-954f-0921ace8eefd",
+        "start_time": "2023-09-27T00:05:15.224Z",
+        "end_time": "2023-09-26T23:13:36.795Z",
+        "status": "Pending",
+        "created_at": "2023-09-26T16:52:29.264Z",
+        "updated_at": "2023-09-26T14:42:05.802Z",
+        "car_id": "eac81969-ea9b-4181-82b8-8149e6e28e0e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd45cea0-6df9-428f-b6a8-f87665c8d962",
+        "start_time": "2023-09-26T22:58:46.155Z",
+        "end_time": "2023-09-27T05:34:21.275Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T13:00:12.625Z",
+        "updated_at": "2023-09-26T14:47:29.297Z",
+        "car_id": "a2df3967-7d4c-4184-8386-113cc5c01c0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e9ca0a7-568b-4397-b221-92c2f6035282",
+        "start_time": "2023-09-27T02:08:21.661Z",
+        "end_time": "2023-09-26T22:34:29.057Z",
+        "status": "Completed",
+        "created_at": "2023-09-27T04:13:37.880Z",
+        "updated_at": "2023-09-26T17:58:05.394Z",
+        "car_id": "012cb815-3771-4778-a84a-310ea82ab1d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27226cee-247c-4d06-8c9c-0942abb8c239",
+        "start_time": "2023-09-27T12:32:06.293Z",
+        "end_time": "2023-09-26T13:11:06.395Z",
+        "status": "On Hold",
+        "created_at": "2023-09-26T20:56:02.284Z",
+        "updated_at": "2023-09-27T08:46:11.665Z",
+        "car_id": "a0868979-5f1b-4b5c-8b88-d4725e1b2c40",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a6fd18b7-ca11-4315-b07c-663ac4fcfbbb",
+        "email": "Bart_OConnell20@roq.tech",
+        "firstName": "Stuart",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c081e8d4-83d5-42d0-bcb1-b61c2823cf66",
+        "email": "Gabriella_Zieme61@roq.tech",
+        "firstName": "Malika",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/550.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c6a1c26-1548-49be-8511-ebdc923900d4",
+        "email": "Gregorio.Boyer@roq.tech",
+        "firstName": "Twila",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/576.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0e58f51a-472f-4ef5-9cde-89d1ccfc81e4",
+        "email": "Antonio_Lueilwitz43@roq.tech",
+        "firstName": "Callie",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/131.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea5f53a8-16dd-45b4-bfa6-87d1eaaaf469",
+        "email": "Corrine_Dare@roq.tech",
+        "firstName": "Devon",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55098502",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "285a1922-17f4-4c82-a34e-05e0ee6fdc77",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-26T22:47:38.082Z",
+        "updated_at": "2023-09-26T19:33:40.898Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4dea469c-d6e5-4391-b135-148215d5af0b",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-27T01:15:00.815Z",
+        "updated_at": "2023-09-27T03:11:28.730Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ebb53563-56ed-4be1-b156-3ae60fe3daa0",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-26T18:54:32.451Z",
+        "updated_at": "2023-09-27T00:15:11.674Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "779aae88-943e-4476-abd0-4e3f4445876f",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-26T20:28:00.460Z",
+        "updated_at": "2023-09-26T20:53:38.980Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e93ab31f-362b-4ab5-ac5e-ffc893517850",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-27T05:02:55.404Z",
+        "updated_at": "2023-09-27T12:33:41.622Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "4496b91e-b361-4c04-ae34-0c3c2226610e",
+        "name": "Order Processing",
+        "status": "Pending",
+        "start_time": "2023-09-26T14:45:06.586Z",
+        "end_time": "2023-09-26T22:09:52.856Z",
+        "created_at": "2023-09-26T22:47:41.255Z",
+        "updated_at": "2023-09-27T11:13:54.241Z",
+        "dashboard_id": "779aae88-943e-4476-abd0-4e3f4445876f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61102bda-1eff-4e4f-8f75-f28136ffd5f7",
+        "name": "Inventory Management",
+        "status": "In Progress",
+        "start_time": "2023-09-27T07:06:50.781Z",
+        "end_time": "2023-09-27T03:40:27.269Z",
+        "created_at": "2023-09-27T00:46:03.023Z",
+        "updated_at": "2023-09-26T21:43:19.957Z",
+        "dashboard_id": "285a1922-17f4-4c82-a34e-05e0ee6fdc77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83263c54-d2b6-493d-bca7-7818c26c394f",
+        "name": "Customer Support",
+        "status": "Completed",
+        "start_time": "2023-09-27T10:14:00.434Z",
+        "end_time": "2023-09-27T07:14:48.956Z",
+        "created_at": "2023-09-26T13:41:09.810Z",
+        "updated_at": "2023-09-26T17:34:12.210Z",
+        "dashboard_id": "ebb53563-56ed-4be1-b156-3ae60fe3daa0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c909be5d-17da-434f-a459-64aa1793d1b8",
+        "name": "Product Development",
+        "status": "On Hold",
+        "start_time": "2023-09-26T18:20:20.147Z",
+        "end_time": "2023-09-27T11:43:45.295Z",
+        "created_at": "2023-09-27T01:07:24.748Z",
+        "updated_at": "2023-09-26T14:59:46.153Z",
+        "dashboard_id": "779aae88-943e-4476-abd0-4e3f4445876f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d5f3110-f927-4e88-bde7-3eb818e3618a",
+        "name": "Quality Assurance",
+        "status": "Cancelled",
+        "start_time": "2023-09-26T22:32:59.586Z",
+        "end_time": "2023-09-27T06:54:54.220Z",
+        "created_at": "2023-09-26T15:16:40.459Z",
+        "updated_at": "2023-09-26T17:36:34.696Z",
+        "dashboard_id": "285a1922-17f4-4c82-a34e-05e0ee6fdc77",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "43c0d6d2-bcc5-46a3-a2ef-5f42ba10f4b7",
+        "model": "Sedan",
+        "year": 21365,
+        "color": "Red",
+        "mileage": 97024,
+        "location": "New York",
+        "created_at": "2023-09-27T10:05:06.125Z",
+        "updated_at": "2023-09-27T02:28:13.309Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4ea5dbe-106e-443b-9cd8-57f12ebb93ba",
+        "model": "SUV",
+        "year": 16810,
+        "color": "Blue",
+        "mileage": 85238,
+        "location": "Los Angeles",
+        "created_at": "2023-09-27T08:04:31.470Z",
+        "updated_at": "2023-09-26T20:56:24.801Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "047235b5-5c76-467c-83e0-7a6673bb0287",
+        "model": "Hatchback",
+        "year": 77567,
+        "color": "Green",
+        "mileage": 44164,
+        "location": "Chicago",
+        "created_at": "2023-09-27T07:40:19.271Z",
+        "updated_at": "2023-09-27T12:03:34.742Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eb6e7384-f4f0-4dd8-ba1c-2babe12ec50c",
+        "model": "Sports Car",
+        "year": 35052,
+        "color": "Silver",
+        "mileage": 35392,
+        "location": "Houston",
+        "created_at": "2023-09-27T00:30:58.065Z",
+        "updated_at": "2023-09-26T21:42:06.236Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96515399-4cfd-4f58-afc6-358e91f1255e",
+        "model": "Electric Vehicle",
+        "year": 83583,
+        "color": "Black",
+        "mileage": 17334,
+        "location": "Miami",
+        "created_at": "2023-09-26T14:01:42.692Z",
+        "updated_at": "2023-09-26T16:23:27.885Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "e92b1351-0698-4315-9504-5548069c5790",
+        "start_time": "2023-09-26T17:41:16.109Z",
+        "end_time": "2023-09-27T01:46:19.048Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T14:06:32.836Z",
+        "updated_at": "2023-09-26T15:04:34.090Z",
+        "car_id": "a4ea5dbe-106e-443b-9cd8-57f12ebb93ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e176cc6-fe1b-4f37-9624-13d7a97119b4",
+        "start_time": "2023-09-26T23:33:49.202Z",
+        "end_time": "2023-09-26T15:38:27.921Z",
+        "status": "Pending",
+        "created_at": "2023-09-27T06:33:05.653Z",
+        "updated_at": "2023-09-27T06:33:40.735Z",
+        "car_id": "047235b5-5c76-467c-83e0-7a6673bb0287",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc7abe2f-7b66-433d-b3f6-b2fee670899e",
+        "start_time": "2023-09-26T18:20:40.040Z",
+        "end_time": "2023-09-27T06:31:00.471Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T16:59:19.109Z",
+        "updated_at": "2023-09-26T14:24:49.292Z",
+        "car_id": "047235b5-5c76-467c-83e0-7a6673bb0287",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0aa6eff4-7dbe-4ad2-b985-2311e0746153",
+        "start_time": "2023-09-27T12:31:05.511Z",
+        "end_time": "2023-09-27T03:28:51.838Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T17:44:24.828Z",
+        "updated_at": "2023-09-27T07:02:37.342Z",
+        "car_id": "a4ea5dbe-106e-443b-9cd8-57f12ebb93ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea0a984d-8c28-43b0-9adb-b788921f78e6",
+        "start_time": "2023-09-26T13:10:44.609Z",
+        "end_time": "2023-09-27T02:02:04.354Z",
+        "status": "On Hold",
+        "created_at": "2023-09-27T01:23:46.489Z",
+        "updated_at": "2023-09-26T23:47:20.522Z",
+        "car_id": "a4ea5dbe-106e-443b-9cd8-57f12ebb93ba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "006a6a60-39d0-485c-9317-c468520f032b",
+        "email": "Kaci_Schaden90@roq.tech",
+        "firstName": "Aurore",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/648.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85edf6ad-eca8-4100-901e-94f296529029",
+        "email": "Lenore.Weissnat@roq.tech",
+        "firstName": "Vickie",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10b545dd-0ddf-42de-8cbc-116ea1f3c208",
+        "email": "Lue25@roq.tech",
+        "firstName": "Anika",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44639602",
+        "tenantId": null
+      },
+      {
+        "reference": "4fde79a3-acb7-4764-9028-2bad6e0f2567",
+        "email": "Ulises.Smith@roq.tech",
+        "firstName": "Hermina",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65725522",
+        "tenantId": null
+      },
+      {
+        "reference": "21841103-f607-4d4f-88b2-7cb148eea9f4",
+        "email": "Nina.McGlynn49@roq.tech",
+        "firstName": "Margarita",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "a5b3784f-075c-4fb3-ad51-4ca1a7bd5912",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-26T12:54:38.463Z",
+        "updated_at": "2023-09-26T17:55:12.272Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "728f52b4-c3ed-4b3f-ba42-977afb890bc4",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-26T23:23:37.230Z",
+        "updated_at": "2023-09-27T02:58:24.075Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d426fbd6-6f6e-49d7-85c2-8431cadc4119",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-27T08:28:25.229Z",
+        "updated_at": "2023-09-27T04:21:56.178Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bf915934-6002-4dec-b175-b734f98df842",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-27T11:55:47.996Z",
+        "updated_at": "2023-09-26T19:10:55.966Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d5ef6d02-cd5f-4801-a795-95c4aea5c7de",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-27T12:45:05.639Z",
+        "updated_at": "2023-09-27T02:15:15.217Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "ff0e44f1-e26c-4400-ba68-cfabaf7e0580",
+        "name": "Order Processing",
+        "status": "Active",
+        "start_time": "2023-09-27T02:44:07.224Z",
+        "end_time": "2023-09-26T14:03:46.422Z",
+        "created_at": "2023-09-27T03:39:11.965Z",
+        "updated_at": "2023-09-26T19:59:17.964Z",
+        "dashboard_id": "728f52b4-c3ed-4b3f-ba42-977afb890bc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cdef151-3af7-48b4-8c8e-2db365bc4a46",
+        "name": "Inventory Management",
+        "status": "Pending",
+        "start_time": "2023-09-26T13:48:00.383Z",
+        "end_time": "2023-09-27T07:49:53.277Z",
+        "created_at": "2023-09-27T02:47:37.092Z",
+        "updated_at": "2023-09-26T16:39:23.871Z",
+        "dashboard_id": "d5ef6d02-cd5f-4801-a795-95c4aea5c7de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7377aa33-1266-4135-ba9f-371b0ab760c9",
+        "name": "Customer Support",
+        "status": "Completed",
+        "start_time": "2023-09-27T01:01:15.554Z",
+        "end_time": "2023-09-27T00:39:27.031Z",
+        "created_at": "2023-09-27T04:18:50.379Z",
+        "updated_at": "2023-09-26T19:41:48.688Z",
+        "dashboard_id": "a5b3784f-075c-4fb3-ad51-4ca1a7bd5912",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c54ba2c-0511-475a-96bc-2536126264e5",
+        "name": "Quality Assurance",
+        "status": "Cancelled",
+        "start_time": "2023-09-26T14:49:20.691Z",
+        "end_time": "2023-09-27T12:18:53.707Z",
+        "created_at": "2023-09-27T03:31:45.914Z",
+        "updated_at": "2023-09-26T21:23:04.447Z",
+        "dashboard_id": "728f52b4-c3ed-4b3f-ba42-977afb890bc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a5cf206-293a-4cbe-9bc8-3a0b133832b1",
+        "name": "Supply Chain",
+        "status": "On Hold",
+        "start_time": "2023-09-26T17:28:57.317Z",
+        "end_time": "2023-09-27T07:13:46.035Z",
+        "created_at": "2023-09-27T09:03:22.321Z",
+        "updated_at": "2023-09-27T05:15:46.386Z",
+        "dashboard_id": "a5b3784f-075c-4fb3-ad51-4ca1a7bd5912",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "7af6fe65-c30c-4cc5-9c3b-d6ec14838134",
+        "model": "Sedan",
+        "year": 69592,
+        "color": "Red",
+        "mileage": 53366,
+        "location": "New York",
+        "created_at": "2023-09-26T22:28:47.946Z",
+        "updated_at": "2023-09-27T02:43:33.152Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "09230bd1-c3b9-49c9-9e94-34d8e01a631f",
+        "model": "SUV",
+        "year": 60253,
+        "color": "Blue",
+        "mileage": 13199,
+        "location": "Los Angeles",
+        "created_at": "2023-09-27T07:22:03.793Z",
+        "updated_at": "2023-09-26T20:54:39.373Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ad86fe60-ba38-4bf1-99a4-275eb0ea1e2d",
+        "model": "Hatchback",
+        "year": 6067,
+        "color": "Green",
+        "mileage": 58591,
+        "location": "Chicago",
+        "created_at": "2023-09-27T07:54:01.480Z",
+        "updated_at": "2023-09-26T18:56:55.252Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d840481f-ba67-4ce3-a79b-6ee9457fe053",
+        "model": "Convertible",
+        "year": 48686,
+        "color": "Black",
+        "mileage": 66959,
+        "location": "Houston",
+        "created_at": "2023-09-26T23:43:54.834Z",
+        "updated_at": "2023-09-27T04:40:34.801Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d27dddae-8160-48ef-8e4a-dd586f9f2a6e",
+        "model": "Electric",
+        "year": 65696,
+        "color": "White",
+        "mileage": 28408,
+        "location": "Miami",
+        "created_at": "2023-09-27T10:53:27.231Z",
+        "updated_at": "2023-09-26T19:36:29.309Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6ac1fd06-a037-4701-acfd-c418285d5a51",
+        "start_time": "2023-09-26T13:12:04.690Z",
+        "end_time": "2023-09-27T06:30:01.551Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T08:24:00.129Z",
+        "updated_at": "2023-09-26T14:44:26.801Z",
+        "car_id": "d27dddae-8160-48ef-8e4a-dd586f9f2a6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32afe32d-aa86-4e1a-883b-73eb3e2363a1",
+        "start_time": "2023-09-26T23:29:41.410Z",
+        "end_time": "2023-09-27T11:17:36.705Z",
+        "status": "Pending",
+        "created_at": "2023-09-26T19:23:58.133Z",
+        "updated_at": "2023-09-27T11:27:19.166Z",
+        "car_id": "09230bd1-c3b9-49c9-9e94-34d8e01a631f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71bb69e5-f720-4359-9e67-29b345c5c7e9",
+        "start_time": "2023-09-27T06:45:13.230Z",
+        "end_time": "2023-09-27T01:55:52.881Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T06:13:15.575Z",
+        "updated_at": "2023-09-27T10:53:48.818Z",
+        "car_id": "d840481f-ba67-4ce3-a79b-6ee9457fe053",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c901f9d9-dafe-4bd9-a0a7-c71b7e0d2b75",
+        "start_time": "2023-09-27T04:00:09.704Z",
+        "end_time": "2023-09-26T15:53:22.018Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T13:07:54.857Z",
+        "updated_at": "2023-09-27T11:25:36.576Z",
+        "car_id": "7af6fe65-c30c-4cc5-9c3b-d6ec14838134",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9da0c61-29cb-4121-8e8f-853f3190d61e",
+        "start_time": "2023-09-27T00:41:53.097Z",
+        "end_time": "2023-09-26T15:10:47.467Z",
+        "status": "On Hold",
+        "created_at": "2023-09-27T06:26:03.315Z",
+        "updated_at": "2023-09-27T08:16:13.905Z",
+        "car_id": "7af6fe65-c30c-4cc5-9c3b-d6ec14838134",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "732b9983-c323-487e-b229-8872c4aefbca",
+        "email": "Dereck52@roq.tech",
+        "firstName": "Amely",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/958.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13acbfbb-7b5a-4663-b1cb-4f20b2a4dc74",
+        "email": "Verner36@roq.tech",
+        "firstName": "Josie",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92552446",
+        "tenantId": null
+      },
+      {
+        "reference": "ade3ef2e-afa4-4df6-92b1-d42e309da2cc",
+        "email": "Pietro_Schaden@roq.tech",
+        "firstName": "Chadd",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/728.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd024d62-aa8d-412a-9056-fe3a6fa510ab",
+        "email": "Orin.Christiansen@roq.tech",
+        "firstName": "Ulices",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4970ee1-7c7b-4b50-8b34-6c4caf2a4bab",
+        "email": "Glennie_Connelly56@roq.tech",
+        "firstName": "Vada",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98568156",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "4bcb5cfd-21c0-4450-82bd-ccee8e0478a5",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-26T15:09:24.874Z",
+        "updated_at": "2023-09-27T04:20:33.853Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "632acba1-8dca-41d6-a47f-3f6339b9bf5a",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-26T13:36:32.466Z",
+        "updated_at": "2023-09-26T14:33:57.439Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "431933aa-1b96-490d-8d19-296592ae5512",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-27T06:58:45.076Z",
+        "updated_at": "2023-09-26T15:19:49.401Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f0554bc-8a18-4842-a1fa-1f2d7e664a0a",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-27T05:38:58.195Z",
+        "updated_at": "2023-09-27T02:14:58.863Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "062ac23a-e22f-4935-b1d2-2a8f6fecf974",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-27T03:15:22.806Z",
+        "updated_at": "2023-09-26T22:14:24.040Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "a726b086-9b3b-4d39-ba5a-949bd9bad3a1",
+        "name": "Order Processing",
+        "status": "Pending",
+        "start_time": "2023-09-26T13:09:00.679Z",
+        "end_time": "2023-09-26T13:51:58.528Z",
+        "created_at": "2023-09-26T19:39:59.289Z",
+        "updated_at": "2023-09-26T17:38:30.302Z",
+        "dashboard_id": "3f0554bc-8a18-4842-a1fa-1f2d7e664a0a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72d1b88d-bfcd-4ca1-b61e-c72aa077bbe4",
+        "name": "Inventory Management",
+        "status": "In Progress",
+        "start_time": "2023-09-27T06:22:41.268Z",
+        "end_time": "2023-09-26T20:55:04.941Z",
+        "created_at": "2023-09-26T17:47:20.767Z",
+        "updated_at": "2023-09-27T10:45:14.206Z",
+        "dashboard_id": "431933aa-1b96-490d-8d19-296592ae5512",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02718e1c-92c2-4c39-88b1-9febeda12223",
+        "name": "Quality Control",
+        "status": "Completed",
+        "start_time": "2023-09-27T02:52:58.070Z",
+        "end_time": "2023-09-26T13:01:17.643Z",
+        "created_at": "2023-09-27T12:50:29.155Z",
+        "updated_at": "2023-09-27T03:32:00.544Z",
+        "dashboard_id": "4bcb5cfd-21c0-4450-82bd-ccee8e0478a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d678e3ae-5415-440f-9d9a-50de12470751",
+        "name": "Supply Chain",
+        "status": "On Hold",
+        "start_time": "2023-09-27T04:26:08.063Z",
+        "end_time": "2023-09-26T23:42:32.327Z",
+        "created_at": "2023-09-26T17:59:26.186Z",
+        "updated_at": "2023-09-26T13:03:34.131Z",
+        "dashboard_id": "3f0554bc-8a18-4842-a1fa-1f2d7e664a0a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "475ec415-a5a7-4d96-8f3c-5660e9523262",
+        "name": "Customer Support",
+        "status": "Cancelled",
+        "start_time": "2023-09-27T02:22:53.189Z",
+        "end_time": "2023-09-27T04:06:36.892Z",
+        "created_at": "2023-09-27T11:52:04.385Z",
+        "updated_at": "2023-09-26T16:44:54.901Z",
+        "dashboard_id": "062ac23a-e22f-4935-b1d2-2a8f6fecf974",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "538cb0ae-21b4-438b-9c5d-1b49e82188ec",
+        "model": "Sedan",
+        "year": 34106,
+        "color": "Red",
+        "mileage": 85843,
+        "location": "New York",
+        "created_at": "2023-09-26T15:54:51.990Z",
+        "updated_at": "2023-09-27T01:45:01.097Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "af53f491-f23a-4cde-ba5b-175a3bca24bd",
+        "model": "SUV",
+        "year": 76157,
+        "color": "Blue",
+        "mileage": 86563,
+        "location": "Los Angeles",
+        "created_at": "2023-09-27T12:38:13.708Z",
+        "updated_at": "2023-09-26T20:22:32.072Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f54ee4e0-47e0-4796-a872-5ed820409204",
+        "model": "Hatchback",
+        "year": 44096,
+        "color": "Black",
+        "mileage": 30841,
+        "location": "Chicago",
+        "created_at": "2023-09-26T23:05:06.733Z",
+        "updated_at": "2023-09-27T09:55:38.575Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6a91034a-7ed8-424b-b919-d8b468eacd64",
+        "model": "Convertible",
+        "year": 4854,
+        "color": "White",
+        "mileage": 52367,
+        "location": "Houston",
+        "created_at": "2023-09-26T16:48:31.178Z",
+        "updated_at": "2023-09-27T06:32:37.387Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8dd5610e-ae6b-42b7-b106-fa93a8c12272",
+        "model": "Electric",
+        "year": 99506,
+        "color": "Silver",
+        "mileage": 15724,
+        "location": "Miami",
+        "created_at": "2023-09-26T21:36:24.705Z",
+        "updated_at": "2023-09-26T17:19:12.801Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ebecefaf-6760-4163-9a1a-3d117c6a7924",
+        "start_time": "2023-09-26T16:11:30.559Z",
+        "end_time": "2023-09-26T15:00:36.300Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T23:30:27.614Z",
+        "updated_at": "2023-09-26T14:07:04.580Z",
+        "car_id": "8dd5610e-ae6b-42b7-b106-fa93a8c12272",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80aa0c71-a234-442c-9b1c-2e42295e6f9c",
+        "start_time": "2023-09-26T20:26:34.027Z",
+        "end_time": "2023-09-27T01:48:27.041Z",
+        "status": "Pending",
+        "created_at": "2023-09-26T19:02:29.580Z",
+        "updated_at": "2023-09-27T07:23:00.226Z",
+        "car_id": "6a91034a-7ed8-424b-b919-d8b468eacd64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7975d8ac-170e-44fa-91dc-79588a21838b",
+        "start_time": "2023-09-27T10:33:34.665Z",
+        "end_time": "2023-09-27T03:47:35.550Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T02:47:34.029Z",
+        "updated_at": "2023-09-27T08:20:54.988Z",
+        "car_id": "6a91034a-7ed8-424b-b919-d8b468eacd64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9417e4e-f35e-4cf6-9021-e8550e678715",
+        "start_time": "2023-09-27T05:56:15.104Z",
+        "end_time": "2023-09-26T14:56:09.883Z",
+        "status": "Completed",
+        "created_at": "2023-09-27T10:36:40.047Z",
+        "updated_at": "2023-09-26T21:41:21.098Z",
+        "car_id": "f54ee4e0-47e0-4796-a872-5ed820409204",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "812a71ba-fc6c-413a-b010-fe8919f02360",
+        "start_time": "2023-09-27T12:35:55.364Z",
+        "end_time": "2023-09-26T22:05:16.074Z",
+        "status": "On Hold",
+        "created_at": "2023-09-27T06:15:51.674Z",
+        "updated_at": "2023-09-26T15:18:06.467Z",
+        "car_id": "8dd5610e-ae6b-42b7-b106-fa93a8c12272",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "20d8105c-f5ab-4810-8674-42bf96e7aaab",
+        "email": "Verdie87@roq.tech",
+        "firstName": "Abagail",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/197.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e062e6a9-d971-427a-96f1-c94b163631fa",
+        "email": "Sterling_Nicolas@roq.tech",
+        "firstName": "Eric",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f718518d-6de5-46e3-8216-d46015ecd67e",
+        "email": "Arnold.Padberg@roq.tech",
+        "firstName": "Ed",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/549.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3dff3a8b-2ba9-4925-ac0b-ff03d2e4f9af",
+        "email": "Francisco_Kessler@roq.tech",
+        "firstName": "Dangelo",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30677726",
+        "tenantId": null
+      },
+      {
+        "reference": "c4eeec19-f593-4724-ae73-1ab050446d44",
+        "email": "Britney.Hodkiewicz@roq.tech",
+        "firstName": "Bernice",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1231.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "3463216f-42b8-428c-84ce-808a31682dc6",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-26T19:29:31.608Z",
+        "updated_at": "2023-09-26T14:05:35.908Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f4eac7d9-f80e-49dc-9085-38d7a46a2956",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-27T06:57:03.628Z",
+        "updated_at": "2023-09-26T15:39:59.840Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b82e0bf6-aa0f-4e46-b5f4-542ef26a3215",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-26T20:51:15.501Z",
+        "updated_at": "2023-09-26T17:59:53.976Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ea301921-7ea5-4b48-a923-b2a8aa6295bc",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-26T20:07:02.258Z",
+        "updated_at": "2023-09-27T01:46:58.895Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d3990231-ad58-41d3-9a7b-6715e947f05c",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-27T01:53:15.740Z",
+        "updated_at": "2023-09-26T20:30:22.282Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "b69ebce5-a78e-4041-8974-b3f3ec07756b",
+        "name": "Project A",
+        "status": "Pending",
+        "start_time": "2023-09-27T09:25:27.249Z",
+        "end_time": "2023-09-27T10:31:56.047Z",
+        "created_at": "2023-09-26T21:45:32.158Z",
+        "updated_at": "2023-09-27T06:29:34.515Z",
+        "dashboard_id": "f4eac7d9-f80e-49dc-9085-38d7a46a2956",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06eb2a9d-f0a9-4a9a-bd23-728e97c6b979",
+        "name": "Task B",
+        "status": "In Progress",
+        "start_time": "2023-09-26T21:41:12.428Z",
+        "end_time": "2023-09-27T04:18:10.608Z",
+        "created_at": "2023-09-26T20:58:32.401Z",
+        "updated_at": "2023-09-26T18:59:09.615Z",
+        "dashboard_id": "d3990231-ad58-41d3-9a7b-6715e947f05c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40da31bf-7498-4040-9f7b-4e17b6eaa903",
+        "name": "Operation C",
+        "status": "Completed",
+        "start_time": "2023-09-27T05:38:46.034Z",
+        "end_time": "2023-09-26T21:44:23.918Z",
+        "created_at": "2023-09-26T21:48:39.178Z",
+        "updated_at": "2023-09-27T08:31:09.693Z",
+        "dashboard_id": "b82e0bf6-aa0f-4e46-b5f4-542ef26a3215",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "305e9e29-74ce-4fe2-ae63-6604926463e7",
+        "name": "Initiative D",
+        "status": "On Hold",
+        "start_time": "2023-09-26T15:28:52.053Z",
+        "end_time": "2023-09-27T03:08:01.544Z",
+        "created_at": "2023-09-27T08:58:27.767Z",
+        "updated_at": "2023-09-27T02:34:06.197Z",
+        "dashboard_id": "ea301921-7ea5-4b48-a923-b2a8aa6295bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fe41255-f8b0-4f2e-aeac-2c2e67984abc",
+        "name": "Campaign E",
+        "status": "Cancelled",
+        "start_time": "2023-09-26T18:40:12.188Z",
+        "end_time": "2023-09-27T12:07:58.821Z",
+        "created_at": "2023-09-26T13:34:02.121Z",
+        "updated_at": "2023-09-27T10:52:45.955Z",
+        "dashboard_id": "b82e0bf6-aa0f-4e46-b5f4-542ef26a3215",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "290f72e3-7d2c-44fb-9398-b2b92c38a979",
+        "model": "Sedan",
+        "year": 86575,
+        "color": "Red",
+        "mileage": 75916,
+        "location": "New York",
+        "created_at": "2023-09-26T22:24:42.828Z",
+        "updated_at": "2023-09-27T10:49:39.226Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd6f319a-b926-4370-a9ed-8c944e28ddf6",
+        "model": "SUV",
+        "year": 76672,
+        "color": "Blue",
+        "mileage": 46510,
+        "location": "Los Angeles",
+        "created_at": "2023-09-27T12:36:38.291Z",
+        "updated_at": "2023-09-27T04:51:03.748Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "11d61c84-7485-4d9e-a22f-9e1ac0ee85dd",
+        "model": "Hatchback",
+        "year": 68899,
+        "color": "Black",
+        "mileage": 6514,
+        "location": "London",
+        "created_at": "2023-09-27T07:08:41.119Z",
+        "updated_at": "2023-09-27T06:26:30.806Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "57291155-80c4-49ed-8abf-78c1ce22389d",
+        "model": "Sports Car",
+        "year": 94727,
+        "color": "White",
+        "mileage": 72245,
+        "location": "Tokyo",
+        "created_at": "2023-09-27T02:29:17.342Z",
+        "updated_at": "2023-09-27T10:48:45.415Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95cb2d73-32eb-481b-b264-9fbb51671dc9",
+        "model": "Electric Vehicle",
+        "year": 43877,
+        "color": "Silver",
+        "mileage": 74793,
+        "location": "Sydney",
+        "created_at": "2023-09-27T07:24:18.713Z",
+        "updated_at": "2023-09-27T01:12:40.122Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4c762a1b-0192-4324-b409-53e26a452ba6",
+        "start_time": "2023-09-26T14:32:55.388Z",
+        "end_time": "2023-09-27T00:00:55.061Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T23:17:36.156Z",
+        "updated_at": "2023-09-27T11:07:26.046Z",
+        "car_id": "290f72e3-7d2c-44fb-9398-b2b92c38a979",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d448054-4239-49db-b1df-b05cbb8d4a18",
+        "start_time": "2023-09-26T16:53:00.399Z",
+        "end_time": "2023-09-27T07:32:10.900Z",
+        "status": "Pending",
+        "created_at": "2023-09-26T21:07:29.874Z",
+        "updated_at": "2023-09-27T07:32:46.024Z",
+        "car_id": "dd6f319a-b926-4370-a9ed-8c944e28ddf6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "943cc644-e899-4836-a62b-164ff058142a",
+        "start_time": "2023-09-27T07:51:21.803Z",
+        "end_time": "2023-09-27T07:10:59.972Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T13:54:16.518Z",
+        "updated_at": "2023-09-27T06:55:07.587Z",
+        "car_id": "95cb2d73-32eb-481b-b264-9fbb51671dc9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f6e9563-a304-4838-8bcc-67df187c1902",
+        "start_time": "2023-09-27T06:17:48.160Z",
+        "end_time": "2023-09-27T08:04:18.716Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T22:47:06.244Z",
+        "updated_at": "2023-09-26T21:23:16.995Z",
+        "car_id": "11d61c84-7485-4d9e-a22f-9e1ac0ee85dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be961711-862b-4ede-8331-7c3221516805",
+        "start_time": "2023-09-27T11:57:55.171Z",
+        "end_time": "2023-09-26T13:30:34.827Z",
+        "status": "In Progress",
+        "created_at": "2023-09-27T05:30:10.229Z",
+        "updated_at": "2023-09-27T02:57:56.393Z",
+        "car_id": "dd6f319a-b926-4370-a9ed-8c944e28ddf6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9ca2a927-c3c3-41e3-a6f1-8a29a8aa1bb7",
+        "email": "Stephen42@roq.tech",
+        "firstName": "Jovanny",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c6ec5b49-b914-4648-84b3-7665fa012e6d",
+        "email": "Merl40@roq.tech",
+        "firstName": "Victor",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52150821",
+        "tenantId": null
+      },
+      {
+        "reference": "6896ad8f-b144-4a56-9e5c-dd0fad3469d2",
+        "email": "Annabell.Ratke47@roq.tech",
+        "firstName": "Lynn",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a5ba2d38-149d-467e-9048-afe39e06f8cd",
+        "email": "Una_Schroeder@roq.tech",
+        "firstName": "Hank",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1068.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca9d6394-2e4e-4515-be6c-d4ab5b689dae",
+        "email": "Jaron17@roq.tech",
+        "firstName": "Chelsea",
+        "lastName": "Bogan-Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/390.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "ca7860b2-23da-4612-a61e-3d4a0866cf3d",
+        "name": "Sales Dashboard",
+        "created_at": "2023-09-26T16:39:13.716Z",
+        "updated_at": "2023-09-26T13:15:17.772Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "544c5478-9c9f-49c9-9aae-7522463acaf3",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-09-26T22:56:39.276Z",
+        "updated_at": "2023-09-26T18:37:06.069Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "db62b09f-b347-4f4b-a9de-c144e04e73f0",
+        "name": "Finance Dashboard",
+        "created_at": "2023-09-27T10:54:16.011Z",
+        "updated_at": "2023-09-26T20:59:38.832Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "15999b68-fd29-444b-95ab-a7f2d122e725",
+        "name": "Operations Dashboard",
+        "created_at": "2023-09-26T13:09:30.290Z",
+        "updated_at": "2023-09-26T18:40:37.163Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7901403c-2201-4959-b5e5-8c3b4bd89b84",
+        "name": "HR Dashboard",
+        "created_at": "2023-09-26T18:43:49.222Z",
+        "updated_at": "2023-09-26T17:26:06.153Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "5b89e89a-841c-42b0-a50c-cf759e673946",
+        "name": "Order Processing",
+        "status": "Pending",
+        "start_time": "2023-09-27T07:02:44.353Z",
+        "end_time": "2023-09-26T16:11:13.851Z",
+        "created_at": "2023-09-26T21:32:37.939Z",
+        "updated_at": "2023-09-27T08:41:57.016Z",
+        "dashboard_id": "15999b68-fd29-444b-95ab-a7f2d122e725",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0af755af-a438-4f3d-9a1e-09f8dee71fa3",
+        "name": "Inventory Management",
+        "status": "In Progress",
+        "start_time": "2023-09-27T09:36:52.564Z",
+        "end_time": "2023-09-26T20:56:15.155Z",
+        "created_at": "2023-09-27T09:36:08.218Z",
+        "updated_at": "2023-09-27T04:52:18.139Z",
+        "dashboard_id": "544c5478-9c9f-49c9-9aae-7522463acaf3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4378b7b-a608-4814-a9c6-bfc700d3584a",
+        "name": "Customer Support",
+        "status": "Completed",
+        "start_time": "2023-09-27T10:08:28.005Z",
+        "end_time": "2023-09-26T19:03:18.083Z",
+        "created_at": "2023-09-27T00:03:10.332Z",
+        "updated_at": "2023-09-27T01:55:24.814Z",
+        "dashboard_id": "ca7860b2-23da-4612-a61e-3d4a0866cf3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0685795b-f73b-4fb7-8d78-7754e290a864",
+        "name": "Quality Control",
+        "status": "On Hold",
+        "start_time": "2023-09-26T17:01:15.015Z",
+        "end_time": "2023-09-27T04:00:02.047Z",
+        "created_at": "2023-09-26T19:14:05.811Z",
+        "updated_at": "2023-09-27T12:11:32.345Z",
+        "dashboard_id": "ca7860b2-23da-4612-a61e-3d4a0866cf3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da902126-0d6c-46b2-af33-fa10305dc9df",
+        "name": "Logistics",
+        "status": "Cancelled",
+        "start_time": "2023-09-27T07:38:08.210Z",
+        "end_time": "2023-09-27T09:20:07.084Z",
+        "created_at": "2023-09-27T01:13:50.451Z",
+        "updated_at": "2023-09-26T14:53:02.886Z",
+        "dashboard_id": "7901403c-2201-4959-b5e5-8c3b4bd89b84",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "df2b252a-21cc-489c-baf3-dc8ca995bb62",
+        "model": "Sedan",
+        "year": 3942,
+        "color": "Red",
+        "mileage": 13155,
+        "location": "New York",
+        "created_at": "2023-09-26T15:32:53.919Z",
+        "updated_at": "2023-09-26T21:53:42.784Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a5ff1889-246e-4878-83ce-41f4bca0e0d7",
+        "model": "SUV",
+        "year": 89255,
+        "color": "Blue",
+        "mileage": 93955,
+        "location": "Los Angeles",
+        "created_at": "2023-09-26T13:03:15.004Z",
+        "updated_at": "2023-09-26T16:24:25.617Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4f13c76a-275c-4438-a3d3-4e3fe1ed3c0c",
+        "model": "Hatchback",
+        "year": 7472,
+        "color": "Black",
+        "mileage": 97033,
+        "location": "Chicago",
+        "created_at": "2023-09-27T02:27:10.337Z",
+        "updated_at": "2023-09-26T16:54:05.786Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97283ee9-bc0f-43a3-89ae-215a8346b09c",
+        "model": "Convertible",
+        "year": 84960,
+        "color": "White",
+        "mileage": 31615,
+        "location": "Houston",
+        "created_at": "2023-09-27T10:16:13.967Z",
+        "updated_at": "2023-09-26T14:32:22.179Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3aa71d30-ded4-4c2d-a79c-33e63b9db6d6",
+        "model": "Electric",
+        "year": 12284,
+        "color": "Silver",
+        "mileage": 73919,
+        "location": "Miami",
+        "created_at": "2023-09-26T20:19:03.105Z",
+        "updated_at": "2023-09-27T08:46:25.212Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "516b86c7-8e0d-4e21-828f-c47d6a759874",
+        "start_time": "2023-09-26T14:45:03.579Z",
+        "end_time": "2023-09-26T23:04:51.779Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T08:58:28.305Z",
+        "updated_at": "2023-09-27T12:49:18.981Z",
+        "car_id": "4f13c76a-275c-4438-a3d3-4e3fe1ed3c0c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0c2dddb-dc07-4e66-9e0c-ca56e05d6c35",
+        "start_time": "2023-09-26T20:22:03.506Z",
+        "end_time": "2023-09-26T20:28:43.667Z",
+        "status": "Pending",
+        "created_at": "2023-09-27T00:00:55.171Z",
+        "updated_at": "2023-09-26T17:44:07.825Z",
+        "car_id": "3aa71d30-ded4-4c2d-a79c-33e63b9db6d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed0afbdb-a1f0-4b9c-af04-33073ee409c5",
+        "start_time": "2023-09-27T09:35:32.060Z",
+        "end_time": "2023-09-27T07:58:40.161Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T09:40:46.963Z",
+        "updated_at": "2023-09-26T23:19:43.932Z",
+        "car_id": "df2b252a-21cc-489c-baf3-dc8ca995bb62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80b6d820-54a2-4f95-b270-e43cd578facb",
+        "start_time": "2023-09-26T22:15:25.647Z",
+        "end_time": "2023-09-27T11:12:47.562Z",
+        "status": "Completed",
+        "created_at": "2023-09-27T11:46:52.011Z",
+        "updated_at": "2023-09-26T17:24:32.054Z",
+        "car_id": "df2b252a-21cc-489c-baf3-dc8ca995bb62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e12747b5-4264-431d-a095-eca09aee74b0",
+        "start_time": "2023-09-26T15:25:51.965Z",
+        "end_time": "2023-09-26T22:25:07.454Z",
+        "status": "On Hold",
+        "created_at": "2023-09-27T05:18:30.464Z",
+        "updated_at": "2023-09-27T12:04:55.140Z",
+        "car_id": "4f13c76a-275c-4438-a3d3-4e3fe1ed3c0c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f8b3cd8b-82d5-41bc-a2a4-664eb92cc823",
+        "email": "Angelo.Boyle@roq.tech",
+        "firstName": "Birdie",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98341459",
+        "tenantId": null
+      },
+      {
+        "reference": "7cd5e161-15eb-46f3-ae92-95daa688f268",
+        "email": "Bernadine_Windler@roq.tech",
+        "firstName": "Jody",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32971268",
+        "tenantId": null
+      },
+      {
+        "reference": "83b8f171-dff1-4b06-8426-2825c5e979c9",
+        "email": "Andreanne.Boyle@roq.tech",
+        "firstName": "Celestino",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1120.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "57e6feaa-f840-45f7-8386-ca7d13d99892",
+        "email": "Suzanne_Howe@roq.tech",
+        "firstName": "Deondre",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1245.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e5bb9808-62a8-4ced-95ec-44bbd8c8f3a4",
+        "email": "Favian_Bosco@roq.tech",
+        "firstName": "Curtis",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13804087",
+        "tenantId": null
+      }
+    ]
+  }
+]
